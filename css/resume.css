@@ -175,6 +175,10 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+.overflowing {
+  overflow: auto;
+}
+
 .bg-primary {
   background-color: #BD5D38 !important;
 }

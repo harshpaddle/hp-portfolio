@@ -21,6 +21,22 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
 
+  <style>
+    .transition-project {
+      width: 280px;
+      height: 280px;
+      border-radius: 40%;
+      transition: width 1.5s,border-radius 1.5s, height 1.5s, transform 1s;
+    }
+
+    .transition-project:hover {
+      width: 300px;
+      height: 300px;
+      border-radius: 20%;
+      background-repeat: repeat;
+    }
+  </style>
+
 </head>
 
 <body id="page-top">
@@ -41,8 +57,11 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">My Creations</a>
+          <a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a>
         </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">My Creations</a>
+        </li> -->
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
@@ -69,9 +88,9 @@
         <div class="subheading mb-5">12 S Atlantic Ave · Aberdeen, NJ 07747 · (732) 788-7709 ·
           <a href="mailto:harshrpatel93@gmail.com">harshrpatel93@gmail.com</a>
         </div>
-        <!-- <p class="lead mb-5">Hello, my name is Harsh Patel and I'm an aspiring web developer currently attending Rutgers coding bootcamp and as well as other small online classes. Before chosing this path I was a pharmacy manager and before that a book. I've never been more passionate or ever had more fun doing than what I'm doing now.</p> -->
-        <p class="lead mb-3">I am Full Stack Web developer, dedicated to programming lifestyle. An active member of the community, I love collaborating with other programmers to build cool projects, while learning new technologies arriving in market. </p>
-        <p class="lead mb-5">I am experienced in building MERN stack applications, usually specialize back-end part if working</p>
+        <p class="lead mb-4">I am Full Stack Web developer, dedicated to programming lifestyle. An active member of the community, I love collaborating with other programmers to build cool projects, while learning new technologies and conventional practices recently arrived in market.</p>
+        <!-- in a previous life i was in the pharmaceutical industry providing healthcare through pharmacy -->
+        <p class="lead mb-5">I specialize in builiding robust and dynamic MERN stack applications, renowned for having powerful express servers and efficient database models with RESTful API design, which helps make programs simple, lightweight and fast.</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/harsh-patel-b112aa18/" target="_blank">
             <i class="fab fa-linkedin-in"></i>
@@ -89,52 +108,112 @@
       </div>
     </section>
 
-    <hr class="m-0">
+    <hr class="m-4">
+    
 
+    
+    <div class="my-work m-4 p-2" id="experience">
+      <div class="row container ">
+        <div class="col-md-5 col-xs-12 work-prev work-img border">
+              <button class=" border-0 p-4" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
+                <img class="  transition-project" src="img/background.jpg" alt="concert" >
+              </button>
 
-    <div class="my-work" id="experience">
-      <div class="row container">
+              <div class="modal fade shadow-lg" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="display-1" id=""><a href="https://mpj1693.github.io/Ticketify/">Ticketify</a></h3>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body m-4">
+                      Ticketify is an application created for music listeners that lets users import thier music playlists from their spotify
+                      account and list live events and concerts with an option to purchase ticket among other information about music artists
+                      in their playlist. Application uses two APIs to function, one from spotify which allows user to log in and retrieve
+                      their music library and playlists, and second that looks up each artist from selelcted user playlist coming near
+                      tri-state area using ticketmaster.
+
+                      <div class="m-2">
+                        <div class="progress m-2">
+                          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                            aria-valuemax="100">Html</div>
+                        </div>
+                        <div class="progress">
+                          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100">javascript</div>
+                        </div>
+                        <div class="progress">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                            aria-valuemax="100">ticketmaster api</div>
+                        </div>
+                        <div class="progress">
+                          <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" href="https://github.com/mpj1693/Ticketify">View
+                        Github Repo<i class="fab fa-github"></i></button>
+                      <button class="btn btn-success" target="_blank"  href="https://mpj1693.github.io/Ticketify/">Visit Site</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- </a> -->
+          <!-- </label> -->
+        </div>
+
+      </div>
+
+      <div class="row container border">
         <div class="col-sm-4 col-xs-12 work-prev work-img">
-          <label for="ticketify"><h3 class="text-lg-center"></h3>
+          <label for="ticketify">
+            <h3 class="text-lg-center"></h3>
             <a class="" href="https://mpj1693.github.io/Ticketify/">
               <img class="p-4 badge-pill" src="img/background.jpg" alt="concert" width="300px" height="300px">
             </a>
           </label>
         </div>
         <div class="col-sm-2">
-
+      
         </div>
         <div class="col-sm-4 col-xs-12 text-center">
-          <label class="p-4" for="summary"><h3 class="text-primary">Ticketify</h3></label>
+          <label class="p-4" for="summary">
+            <h3 class="text-primary">OverWatch WorkShop</h3>
+          </label>
           <p>
-            Ticketify is an application created for music listeners that lets users import thier music playlists from their spotify account and list live events and concerts with an option to purchase ticket among other information about music artists in their playlist. Application uses two APIs to function, one from spotify which allows user to log in and retrieve their music library and playlists, and second that looks up each artist from selelcted user playlist coming near tri-state area using ticketmaster.
+            OverWorkshop is an online platform for OverWatch gamers to see what's hot and what's not about incoming events, updates, add-ons
           </p>
-
+      
         </div>
       </div>
       
     </div>
-
-    <!-- <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <!-- <h2 class="mb-5">Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Senior Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            <h3 class="mb-0">Web Development Teaching Asst.</h3>
+            <div class="subheading mb-3">Rutgers Coding Bootcamp</div>
+            <p>Help lead class of 40 students learning MERN stack technologies for 24-week course.</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">March 2013 - Present</span>
+            <span class="text-primary">June 2019 - Present</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Web Developer</h3>
-            <div class="subheading mb-3">Intelitec Solutions</div>
-            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+            <h3 class="mb-0">Pharmacy Manager</h3>
+            <div class="subheading mb-3">Halcyon Pharmacy</div>
+            <p>Lead and established a successful pharmacy expansion.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">December 2011 - March 2013</span>
@@ -161,11 +240,11 @@
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2008 - June 2010</span>
           </div>
-        </div>
+        </div> -->
 
       </div>
 
-    </section> -->
+    </section>
 
     <hr class="m-0">
 
@@ -335,6 +414,19 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+
+  <script>
+      $(".animate-project").on('hover',
+          // function () { //mouse over
+          //   $(this).width($(this).width() + 30);
+          // },
+          // function () { //mouse out
+          //   $(this).width($(this).width() - 30);
+          // }
+          $('.animate-project').animate({ height: "00px" })
+
+        );
+  </script>
 
 </body>
 
