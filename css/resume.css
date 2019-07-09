@@ -180,7 +180,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  /* background-color: #BD5D38 !important; */
+  background-color: blue !important;
+  /* background-color: rgba(189, 93, 58, 0.1) !important; */
 }
 
 .text-primary {

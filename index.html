@@ -33,8 +33,14 @@
       width: 300px;
       height: 300px;
       border-radius: 20%;
+      border-color: #d48a6e;
+      border: 2px #d48a6e;
       background-repeat: repeat;
     }
+
+    /* .nav-item {
+      padding: -1px;
+    } */
   </style>
 
 </head>
@@ -57,11 +63,11 @@
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a>
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">My Creations</a>
-        </li> -->
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Work History</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
@@ -86,7 +92,7 @@
           <span class="text-primary last-name">Harsh</span>
         </h1>
         <div class="subheading mb-5">12 S Atlantic Ave · Aberdeen, NJ 07747 · (732) 788-7709 ·
-          <a href="mailto:harshrpatel93@gmail.com">harshrpatel93@gmail.com</a>
+          <a class="text-lowercase"  href="mailto:harshrpatel93@gmail.com">harshrpatel93@gmail.com</a>
         </div>
         <p class="lead mb-4">I am Full Stack Web developer, dedicated to programming lifestyle. An active member of the community, I love collaborating with other programmers to build cool projects, while learning new technologies and conventional practices recently arrived in market.</p>
         <!-- in a previous life i was in the pharmaceutical industry providing healthcare through pharmacy -->
@@ -112,13 +118,76 @@
     <!--  -->
     
     
-    <div class="resume-section my-work m-4 p-2 border" id="experience">
-      <h2 class="text-primary mt-4">Past Projects</h2>
+    <div class="resume-section my-work m-4 p-2" id="projects">
+      <h2 class="text-primary mt-4">Projects</h2>
       <hr class="ml-1">
+      <!-- projects row 1 -->
+      <div class="row container ">
+        <!-- okay here's a box for projects -->
+        
+        <div class="col-md-5 col-xs-12 work-prev work-img">
+              <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
+                <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/background.jpg" alt="concert" >
+                <h4 class="">Ticketify</h4>
+              </button>
+
+              <div class="modal fade shadow-lg" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h3 class="display-1" id=""><a href="https://mpj1693.github.io/Ticketify/">Ticketify</a></h3>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body m-4">
+                      <p>
+                        Ticketify is an application created for music listeners that lets users import thier music playlists from their spotify
+                        account and list live events and concerts with an option to purchase ticket among other information about music artists
+                        in their playlist. Application uses two APIs to function, one from spotify which allows user to log in and retrieve
+                        their music library and playlists, and second that looks up each artist from selelcted user playlist coming near
+                        tri-state area using ticketmaster.
+                      </p>
+
+                      <h6>Powered by:</h6>
+                      <div class="m-2">
+                        <div class="progress m-2">
+                          <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="65" aria-valuemin="0"
+                            aria-valuemax="100">Spotify API</div>
+                        </div>
+                        <div class="progress m-2">
+                          <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="60" aria-valuemin="0"
+                            aria-valuemax="100">Ticketmaster API</div>
+                        </div>
+                        <div class="progress m-2">
+                          <div class="progress-bar bg-succed" role="progressbar" style="width: 70%" aria-valuenow="100" aria-valuemin="0"
+                            aria-valuemax="100">jQuery.js</div>
+                        </div>
+                        <div class="progress m-2">
+                          <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0"
+                            aria-valuemax="100">Bootstrap</div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <a class="btn btn-secondary" target="_blank" href="https://github.com/mpj1693/Ticketify">View
+                        Github Repo<i class="fab fa-github"></i></a>
+                      <a class="btn btn-lg btn-success" target="_blank"  href="https://mpj1693.github.io/Ticketify/">Visit Site</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- </a> -->
+          <!-- </label> -->
+        </div>
+
+      </div>
       <div class="row container ">
         <!-- okay here's a box for projects -->
         <div class="col-md-5 col-xs-12 work-prev work-img">
-              <button class="border-0 p-4" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
+              <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
                 <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/background.jpg" alt="concert" >
                 <h4 class="">Ticketify</h4>
               </button>
@@ -172,8 +241,8 @@
           <!-- </label> -->
         </div>
         <!-- another project box -->
-        <div class="col-md-5 col-xs-12 work-prev work-img ">
-              <button class="border-0 p-4" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
+        <div class="col-md-5 col-xs-12 work-prev work-img">
+              <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
                 <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/background.jpg" alt="concert" >
                 <h4 class="">Ticketify</h4>
               </button>
@@ -231,7 +300,7 @@
       <div class="row container ">
         <!-- okay here's a box for projects -->
         <div class="col-md-5 col-xs-12 work-prev work-img">
-              <button class="border-0 p-4" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
+              <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
                 <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/background.jpg" alt="concert" >
                 <h4 class="">Ticketify</h4>
               </button>
@@ -286,120 +355,7 @@
         </div>
         <!-- another project box -->
         <div class="col-md-5 col-xs-12 work-prev work-img">
-              <button class="border-0 p-4" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
-                <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/background.jpg" alt="concert" >
-                <h4 class="">Ticketify</h4>
-              </button>
-
-              <div class="modal fade shadow-lg" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-                aria-hidden="true">
-                <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="display-1" id=""><a href="https://mpj1693.github.io/Ticketify/">Ticketify</a></h3>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body m-4">
-                      Ticketify is an application created for music listeners that lets users import thier music playlists from their spotify
-                      account and list live events and concerts with an option to purchase ticket among other information about music artists
-                      in their playlist. Application uses two APIs to function, one from spotify which allows user to log in and retrieve
-                      their music library and playlists, and second that looks up each artist from selelcted user playlist coming near
-                      tri-state area using ticketmaster.
-
-                      <div class="m-2">
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                            aria-valuemax="100">Html</div>
-                        </div>
-                        <div class="progress">
-                          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                            aria-valuemax="100">javascript</div>
-                        </div>
-                        <div class="progress">
-                          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100">ticketmaster api</div>
-                        </div>
-                        <div class="progress">
-                          <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" href="https://github.com/mpj1693/Ticketify">View
-                        Github Repo<i class="fab fa-github"></i></button>
-                      <button class="btn btn-lg btn-success" target="_blank"  href="https://mpj1693.github.io/Ticketify/">Visit Site</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            <!-- </a> -->
-          <!-- </label> -->
-        </div>
-
-      </div>
-      <div class="row container ">
-        <!-- okay here's a box for projects -->
-        <div class="col-md-5 col-xs-12 work-prev work-img">
-              <button class="border-0 p-4" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
-                <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/background.jpg" alt="concert" >
-                <h4 class="">Ticketify</h4>
-              </button>
-
-              <div class="modal fade shadow-lg" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-                aria-hidden="true">
-                <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="display-1" id=""><a href="https://mpj1693.github.io/Ticketify/">Ticketify</a></h3>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body m-4">
-                      Ticketify is an application created for music listeners that lets users import thier music playlists from their spotify
-                      account and list live events and concerts with an option to purchase ticket among other information about music artists
-                      in their playlist. Application uses two APIs to function, one from spotify which allows user to log in and retrieve
-                      their music library and playlists, and second that looks up each artist from selelcted user playlist coming near
-                      tri-state area using ticketmaster.
-
-                      <div class="m-2">
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
-                            aria-valuemax="100">Html</div>
-                        </div>
-                        <div class="progress">
-                          <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                            aria-valuemax="100">javascript</div>
-                        </div>
-                        <div class="progress">
-                          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                            aria-valuemax="100">ticketmaster api</div>
-                        </div>
-                        <div class="progress">
-                          <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" href="https://github.com/mpj1693/Ticketify">View
-                        Github Repo<i class="fab fa-github"></i></button>
-                      <button class="btn btn-lg btn-success" target="_blank"  href="https://mpj1693.github.io/Ticketify/">Visit Site</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            <!-- </a> -->
-          <!-- </label> -->
-        </div>
-        <!-- another project box -->
-        <div class="col-md-5 col-xs-12 work-prev work-img">
-              <button class="border-0 p-4" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
+              <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
                 <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/background.jpg" alt="concert" >
                 <h4 class="">Ticketify</h4>
               </button>
@@ -643,26 +599,6 @@
           <li>
             <i class="fa-li fa fa-trophy text-warning"></i>
             Mobile Web Specialist - Google Certification</li>
-          <!-- <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li> -->
         </ul>
       </div>
     </section>
@@ -679,17 +615,8 @@
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
 
-  <script>
-      $(".animate-project").on('hover',
-          // function () { //mouse over
-          //   $(this).width($(this).width() + 30);
-          // },
-          // function () { //mouse out
-          //   $(this).width($(this).width() - 30);
-          // }
-          $('.animate-project').animate({ height: "00px" })
+  <script type="text/javascript">
 
-        );
   </script>
 
 </body>
