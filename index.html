@@ -26,16 +26,18 @@
       width: 280px;
       height: 280px;
       border-radius: 40%;
-      transition: width .5s,border-radius .5s, height .5s, transform 1s;
+      box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+      transition: width .5s,border-radius .5s,box-shadow .5s, height .5s, transform 1s;
     }
 
     .transition-project:hover {
       width: 300px;
       height: 300px;
-      border-radius: 20%;
+      border-radius: 15%;
       border-color: #d48a6e;
       border: 2px #d48a6e;
       background-repeat: repeat;
+      box-shadow: 0px 5px 7px 7px #535252;
     }
 
     /* .nav-item {
@@ -493,7 +495,7 @@
     </div>
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <!-- <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5">Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -537,7 +539,7 @@
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2008 - June 2010</span>
           </div>
-        </div> -->
+        </div>
 
       </div>
 
@@ -659,7 +661,7 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+        <p>Apart from coding, I enjoy most of my time being outdoors. In the winter, I spend most of my free. During the warmer months here in new jersey, I enjoy mountain biking, free climbing, and kayaking.</p>
         <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
       </div>
     </section>
@@ -678,6 +680,16 @@
             Mobile Web Specialist - Google Certification</li>
         </ul>
       </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
+
+      <h3>Get in touch</h3>
+      <form method="POST" action="https://formspree.io/harshrpatel93@gmail.com">
+        <input type="email" name="email" placeholder="Your email">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
 
   </div>
