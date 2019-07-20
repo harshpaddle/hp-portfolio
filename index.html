@@ -9,7 +9,12 @@
   <meta name="author" content="">
 
   <title>Harsh Patel | Web Developer</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
 
+  
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -80,7 +85,7 @@
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">HIT ME UP</a>
+          <a class="nav-link js-scroll-trigger" href="#contact">HIT ME UP</a>
         </li>
       </ul>
     </div>
@@ -119,383 +124,390 @@
     <hr>
     <!--  -->
     
-    
-    <div class="resume-section my-work m-4 p-2" id="projects">
-      <h2 class="text-primary m-4">Projects</h2>
-      <hr class="ml-1 mb-4">
-      <!-- projects row 1 -->
-      <div class="row container ">
-        <!-- okay here's a box for projects -->
-        <!-- overwatch -->
-<!-- first project -->
-        <div class="col-md-5 col-xs-12 work-prev work-img">
-              <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
-                <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="./img/overworkshop_pic.png" alt="concert" >
-                <h4 class="">OverWatch</h4>
-              </button>
+    <section>
+      <div class="resume-section my-work m-4 p-2" id="projects">
+        <h2 class="text-primary m-4">Projects</h2>
+        <hr class="ml-1 mb-4">
+        <!-- projects row 1 -->
+        <div class="row container ">
+          <!-- okay here's a box for projects -->
+          <!-- overwatch -->
+  <!-- first project -->
+          <div class="col-md-5 col-xs-12 work-prev work-img">
+                <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable">
+                  <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="./img/overworkshop_pic.png" alt="concert" >
+                  <h4 class="">OverWatch</h4>
+                </button>
 
-              <div class="modal fade shadow-lg" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-                aria-hidden="true">
-                <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="display-5" id=""><a href="https://mpj1693.github.io/Ticketify/">OverWatch WorkShop</a></h3>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body m-4">
-                      <h6>Summary</h6>
-                      <p>
-                        OverWatch WorkShop is an online social platform for overwatch gamers to view what's trending in its community. Once logged in using google, user has the ability to create post with usually a media file if they choose, delte post(if owner), comment on post, upvote(like) and downvote(dislike).
-                      </p>
-                      <p>
-                        <h6 class="bold">Motive</h6>
-                        The idea was brought to life after one of the team members, of this project, expressed his frustration keeping up with online events, trends and updates continuosly coming to the much beloved OverWatch game. The subReddit page created for the purpose of doing these things was polluted with useless content/spam and just a mess. It was then We then decided to create a subReddit clone with same functions such as creating user accounts, posting content with scores (upvotes- downvotes) and string of comments per post. These functionalities require strong back-end application with secure server, which was built using React.js, Passport.js authentication with Google Oauth, strong and secure Sequelize database, among other technologies.
-                      </p>
-
-                      <h6>Powered by:</h6>
-                      <div class="m-2">
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-info" role="progressbar" style="width: 99%" aria-valuenow="65" aria-valuemin="0"
-                            aria-valuemax="100">React.js</div>
-                        </div>
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="60" aria-valuemin="0"
-                            aria-valuemax="100">Google Oauth</div>
-                        </div>
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-succed" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100">Axios</div>
-                        </div>
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0"
-                            aria-valuemax="100">Swal(sweet alerts)</div>
-                        </div>
+                <div class="modal fade shadow-lg" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="display-5" id=""><a href="https://mpj1693.github.io/Ticketify/">OverWatch WorkShop</a></h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
                       </div>
-                      
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-secondary" target="_blank" href="https://github.com/parrnicholasj/overworkshop2">View Code <i class="fab fa-github"></i></a>
-                      <a class="btn btn-lg btn-success" target="_blank"  href="https://overworkshop.herokuapp.com">Visit Site</a>
+                      <div class="modal-body m-4">
+                        <h6>Summary</h6>
+                        <p>
+                          OverWatch WorkShop is an online social platform for overwatch gamers to view what's trending in its community. Once logged in using google, user has the ability to create post with usually a media file if they choose, delte post(if owner), comment on post, upvote(like) and downvote(dislike).
+                        </p>
+                        <p>
+                          <h6 class="bold">Motive</h6>
+                          The idea was brought to life after one of the team members, of this project, expressed his frustration keeping up with online events, trends and updates continuosly coming to the much beloved OverWatch game. The subReddit page created for the purpose of doing these things was polluted with useless content/spam and just a mess. It was then We then decided to create a subReddit clone with same functions such as creating user accounts, posting content with scores (upvotes- downvotes) and string of comments per post. These functionalities require strong back-end application with secure server, which was built using React.js, Passport.js authentication with Google Oauth, strong and secure Sequelize database, among other technologies.
+                        </p>
+
+                        <h6>Powered by:</h6>
+                        <div class="m-2">
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 99%" aria-valuenow="65" aria-valuemin="0"
+                              aria-valuemax="100">React.js</div>
+                          </div>
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="60" aria-valuemin="0"
+                              aria-valuemax="100">Google Oauth</div>
+                          </div>
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-succed" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0"
+                              aria-valuemax="100">Axios</div>
+                          </div>
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0"
+                              aria-valuemax="100">Swal(sweet alerts)</div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <a class="btn btn-secondary" target="_blank" href="https://github.com/parrnicholasj/overworkshop2">View Code <i class="fab fa-github"></i></a>
+                        <a class="btn btn-lg btn-success" target="_blank"  href="https://overworkshop.herokuapp.com">Visit Site</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            <!-- </a> -->
-          <!-- </label> -->
-        </div>
-<!-- second project -->
-        <div class="col-md-5 col-xs-12 work-prev work-img">
-          <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable1">
-            <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/background.jpg"
-              alt="concert">
-            <h4 class="">Ticketify</h4>
-          </button>
-        
-          <div class="modal fade shadow-lg" id="exampleModalScrollable1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="display-5" id=""><a href="https://mpj1693.github.io/Ticketify/">Ticketify</a></h3>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body m-4">
-                  <h6>Summary</h6>
-                  <p>
-                    This app is a unique source to check out upcoming concerts and music events hosted by the artists in your personal Spotify library.
-
-                    Music is obviously an important aspect of everyones lives, this app allows to users to see if any of the artists they listen to everyday can be seen live near them, without looking up each artist tours or tickets 
-                    individually.
-
-                    <!-- Ticketify is an application created for music listeners that lets users import thier music playlists from
-                    their spotify
-                    account and list live events and concerts with an option to purchase ticket among other information about
-                    music artists
-                    in their playlist. Application uses two APIs to function, one from spotify which allows user to log in and
-                    retrieve
-                    their music library and playlists, and second that looks up each artist from selelcted user playlist coming
-                    near
-                    tri-state area using ticketmaster. -->
-                  </p>
-                  <p>
-                    <h6 class="bold">Motive</h6>
-                    The idea was brought born when one of the team member complained about main-stream music and its coverage. She loves going to concerts but most of the artist she listens to doesn't appear as headline and causing her to miss out when they're in town.
-
-                    So we came up with solution of extracting every artist she listens to from her spotify music library using <b>Spotify API</b> and search each artist/musician who might be in the area using <b>Ticketmaster API</b>
-                  </p>
-        
-                  <h6>Powered by:</h6>
-                  <div class="m-2">
-                    <div class="progress m-2">
-                      <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="65" aria-valuemin="0"
-                        aria-valuemax="100">Spotify API</div>
-                    </div>
-                    <div class="progress m-2">
-                      <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="60"
-                        aria-valuemin="0" aria-valuemax="100">Ticketmaster API</div>
-                    </div>
-                    <div class="progress m-2">
-                      <div class="progress-bar bg-succed" role="progressbar" style="width: 70%" aria-valuenow="100"
-                        aria-valuemin="0" aria-valuemax="100">jQuery.js</div>
-                    </div>
-                    <div class="progress m-2">
-                      <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35"
-                        aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
-                    </div>
+              <!-- </a> -->
+            <!-- </label> -->
+          </div>
+  <!-- second project -->
+          <div class="col-md-5 col-xs-12 work-prev work-img">
+            <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable1">
+              <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/background.jpg"
+                alt="concert">
+              <h4 class="">Ticketify</h4>
+            </button>
+          
+            <div class="modal fade shadow-lg" id="exampleModalScrollable1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+              aria-hidden="true">
+              <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="display-5" id=""><a href="https://mpj1693.github.io/Ticketify/">Ticketify</a></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
-        
-                </div>
-                <div class="modal-footer">
-                  <a class="btn btn-secondary" target="_blank" href="https://github.com/mpj1693/Ticketify">View
-                    Github Repo<i class="fab fa-github"></i></a>
-                  <a class="btn btn-lg btn-success" target="_blank" href="https://mpj1693.github.io/Ticketify/">Visit Site</a>
+                  <div class="modal-body m-4">
+                    <h6>Summary</h6>
+                    <p>
+                      This app is a unique source to check out upcoming concerts and music events hosted by the artists in your personal Spotify library.
+
+                      Music is obviously an important aspect of everyones lives, this app allows to users to see if any of the artists they listen to everyday can be seen live near them, without looking up each artist tours or tickets 
+                      individually.
+
+                      <!-- Ticketify is an application created for music listeners that lets users import thier music playlists from
+                      their spotify
+                      account and list live events and concerts with an option to purchase ticket among other information about
+                      music artists
+                      in their playlist. Application uses two APIs to function, one from spotify which allows user to log in and
+                      retrieve
+                      their music library and playlists, and second that looks up each artist from selelcted user playlist coming
+                      near
+                      tri-state area using ticketmaster. -->
+                    </p>
+                    <p>
+                      <h6 class="bold">Motive</h6>
+                      The idea was brought born when one of the team member complained about main-stream music and its coverage. She loves going to concerts but most of the artist she listens to doesn't appear as headline and causing her to miss out when they're in town.
+
+                      So we came up with solution of extracting every artist she listens to from her spotify music library using <b>Spotify API</b> and search each artist/musician who might be in the area using <b>Ticketmaster API</b>
+                    </p>
+          
+                    <h6>Powered by:</h6>
+                    <div class="m-2">
+                      <div class="progress m-2">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="65" aria-valuemin="0"
+                          aria-valuemax="100">Spotify API</div>
+                      </div>
+                      <div class="progress m-2">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="60"
+                          aria-valuemin="0" aria-valuemax="100">Ticketmaster API</div>
+                      </div>
+                      <div class="progress m-2">
+                        <div class="progress-bar bg-succed" role="progressbar" style="width: 70%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100">jQuery.js</div>
+                      </div>
+                      <div class="progress m-2">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35"
+                          aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+                      </div>
+                    </div>
+          
+                  </div>
+                  <div class="modal-footer">
+                    <a class="btn btn-secondary" target="_blank" href="https://github.com/mpj1693/Ticketify">View
+                      Github Repo<i class="fab fa-github"></i></a>
+                    <a class="btn btn-lg btn-success" target="_blank" href="https://mpj1693.github.io/Ticketify/">Visit Site</a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- </a> -->
-          <!-- </label> -->
-        </div>
-
-      </div>
-
-      <!-- 2nd row of projects -->
-<!-- third project -->
-      <div class="row container ">
-        <!-- okay here's a box for projects -->
-        <div class="col-md-5 col-xs-12 work-prev work-img">
-              <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable2">
-                <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="https://media.giphy.com/media/3o85xpqgSEA5GNmY2Q/giphy.gif" alt="all abord" >
-                <h4 class="">GifTastic</h4>
-              </button>
-
-              <div class="modal fade shadow-lg" id="exampleModalScrollable2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-                aria-hidden="true">
-                <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="display-5" id=""><a href="https://harshpaddle.github.io/All-Aboard/">GifTastic</a></h3>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body m-4">
-                      <h6>Summary</h6>
-                      <p>
-                        In this application you can search for gifs. There are already some buttons with names of some actors, but you can create more. Once the search term is submitted, a button with that string will be created without the page being reloaded. On clicking that button, twenty-five still images of the corresponding term will be displayed. On clicking any image it will animate and clicking again will stop the animation and make it a still image. All this will happen without the page being reloaded.
-
-                        In this application one can search and see many gifs (small video clips). The page already has few themed buttons that dispense 25 different gifs based on its keyword. Once Clickexd
-                      </p>
-                      <p>
-                        <h6 class="bold">Motive</h6>
-                        This is one of the projects I had to do during my time at Rutgers coding Bootcamp, as to prove the knowledge of Google's firebase by creating an application powered by it with numerous benefits like database, analytics and crash reporting.
-                      </p>
-
-                      <h6>Powered by:</h6>
-                      <div class="m-2">
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="65" aria-valuemin="0"
-                            aria-valuemax="100">Google Firebase</div>
-                        </div>
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="60" aria-valuemin="0"
-                            aria-valuemax="100">Express</div>
-                        </div>
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-succed" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100">Axios</div>
-                        </div>
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0"
-                            aria-valuemax="100">Swal(sweet alerts)</div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-secondary" target="_blank" href="https://github.com/harshpaddle/All-Aboard">View Code <i class="fab fa-github"></i></a>
-                      <a class="btn btn-lg btn-success" target="_blank"  href="https://harshpaddle.github.io/All-Aboard/">Visit Site</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
             <!-- </a> -->
-          <!-- </label> -->
+            <!-- </label> -->
+          </div>
+
         </div>
-<!-- fourth project -->
-        <div class="col-md-5 col-xs-12 work-prev work-img">
-          <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable1">
-            <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/note-taker-app.png"
-              alt="concert">
-            <h4 class="">Noted</h4>
-          </button>
-        
-          <div class="modal fade shadow-lg" id="exampleModalScrollable1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-            aria-hidden="true">
-            <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h3 class="display-5" id=""><a href="https://mpj1693.github.io/Ticketify/">Note Taker</a></h3>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body m-4">
-                  <h6>Summary</h6>
-                  <p>
-                    The goal for this project was to clone the mac's note taker as practice. Basically this app creates, views and delete notes without refreshing the page. Cool thing about that is the data is persisted on an online database meaning notes persist and reload even after the end of each session.
-                  </p>
-        
-                  <h6>Powered by:</h6>
-                  <div class="m-2">
-                    <div class="progress m-2">
-                      <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="65" aria-valuemin="0"
-                        aria-valuemax="100">My SQL</div>
-                    </div>
-                    <div class="progress m-2">
-                      <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="60"
-                        aria-valuemin="0" aria-valuemax="100">Node.js</div>
-                    </div>
-                    <div class="progress m-2">
-                      <div class="progress-bar bg-succed" role="progressbar" style="width: 70%" aria-valuenow="100"
-                        aria-valuemin="0" aria-valuemax="100">Workbench</div>
-                    </div>
-                    <div class="progress m-2">
-                      <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35"
-                        aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+
+        <!-- 2nd row of projects -->
+  <!-- third project -->
+        <div class="row container ">
+          <!-- okay here's a box for projects -->
+          <div class="col-md-5 col-xs-12 work-prev work-img">
+                <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable2">
+                  <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="https://media.giphy.com/media/3o85xpqgSEA5GNmY2Q/giphy.gif" alt="all abord" >
+                  <h4 class="">GifTastic</h4>
+                </button>
+
+                <div class="modal fade shadow-lg" id="exampleModalScrollable2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="display-5" id=""><a href="https://harshpaddle.github.io/All-Aboard/">GifTastic</a></h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body m-4">
+                        <h6>Summary</h6>
+                        <p>
+                          In this application you can search for gifs. There are already some buttons with names of some actors, but you can create more. Once the search term is submitted, a button with that string will be created without the page being reloaded. On clicking that button, twenty-five still images of the corresponding term will be displayed. On clicking any image it will animate and clicking again will stop the animation and make it a still image. All this will happen without the page being reloaded.
+
+                          In this application one can search and see many gifs (small video clips). The page already has few themed buttons that dispense 25 different gifs based on its keyword. Once Clickexd
+                        </p>
+                        <p>
+                          <h6 class="bold">Motive</h6>
+                          This is one of the projects I had to do during my time at Rutgers coding Bootcamp, as to prove the knowledge of Google's firebase by creating an application powered by it with numerous benefits like database, analytics and crash reporting.
+                        </p>
+
+                        <h6>Powered by:</h6>
+                        <div class="m-2">
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="65" aria-valuemin="0"
+                              aria-valuemax="100">Google Firebase</div>
+                          </div>
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="60" aria-valuemin="0"
+                              aria-valuemax="100">Express</div>
+                          </div>
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-succed" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0"
+                              aria-valuemax="100">Axios</div>
+                          </div>
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0"
+                              aria-valuemax="100">Swal(sweet alerts)</div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <a class="btn btn-secondary" target="_blank" href="https://github.com/harshpaddle/All-Aboard">View Code <i class="fab fa-github"></i></a>
+                        <a class="btn btn-lg btn-success" target="_blank"  href="https://harshpaddle.github.io/All-Aboard/">Visit Site</a>
+                      </div>
                     </div>
                   </div>
-        
                 </div>
-                <div class="modal-footer">
-                  <a class="btn btn-secondary" target="_blank" href="https://github.com/mpj1693/Ticketify">View
-                    Github Repo<i class="fab fa-github"></i></a>
-                  <a class="btn btn-lg btn-success" target="_blank" href="https://mpj1693.github.io/Ticketify/">Visit Site</a>
+              <!-- </a> -->
+            <!-- </label> -->
+          </div>
+  <!-- fourth project -->
+          <div class="col-md-5 col-xs-12 work-prev work-img">
+            <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable1">
+              <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/note-taker-app.png"
+                alt="concert">
+              <h4 class="">Noted</h4>
+            </button>
+          
+            <div class="modal fade shadow-lg" id="exampleModalScrollable1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+              aria-hidden="true">
+              <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="display-5" id=""><a href="https://mpj1693.github.io/Ticketify/">Note Taker</a></h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body m-4">
+                    <h6>Summary</h6>
+                    <p>
+                      The goal for this project was to clone the mac's note taker as practice. Basically this app creates, views and delete notes without refreshing the page. Cool thing about that is the data is persisted on an online database meaning notes persist and reload even after the end of each session.
+                    </p>
+          
+                    <h6>Powered by:</h6>
+                    <div class="m-2">
+                      <div class="progress m-2">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="65" aria-valuemin="0"
+                          aria-valuemax="100">My SQL</div>
+                      </div>
+                      <div class="progress m-2">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 70%" aria-valuenow="60"
+                          aria-valuemin="0" aria-valuemax="100">Node.js</div>
+                      </div>
+                      <div class="progress m-2">
+                        <div class="progress-bar bg-succed" role="progressbar" style="width: 70%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100">Workbench</div>
+                      </div>
+                      <div class="progress m-2">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35"
+                          aria-valuemin="0" aria-valuemax="100">Bootstrap</div>
+                      </div>
+                    </div>
+          
+                  </div>
+                  <div class="modal-footer">
+                    <a class="btn btn-secondary" target="_blank" href="https://github.com/mpj1693/Ticketify">View
+                      Github Repo<i class="fab fa-github"></i></a>
+                    <a class="btn btn-lg btn-success" target="_blank" href="https://mpj1693.github.io/Ticketify/">Visit Site</a>
+                  </div>
                 </div>
               </div>
             </div>
+            <!-- </a> -->
+            <!-- </label> -->
           </div>
-          <!-- </a> -->
-          <!-- </label> -->
+
         </div>
 
-      </div>
+        <div class="row container ">
+          <!-- okay here's a box for projects -->
+  <!-- fifth project -->
+          <div class="col-md-5 col-xs-12 work-prev work-img">
+                <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable4">
+                  <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/crystals.jpg" alt="all aboard" >
+                  <h4 class="">Crystal Collecter</h4>
+                </button>
 
-      <div class="row container ">
-        <!-- okay here's a box for projects -->
-<!-- fifth project -->
-        <div class="col-md-5 col-xs-12 work-prev work-img">
-              <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable4">
-                <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="img/crystals.jpg" alt="all aboard" >
-                <h4 class="">Crystal Collecter</h4>
-              </button>
-
-              <div class="modal fade shadow-lg" id="exampleModalScrollable4" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-                aria-hidden="true">
-                <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="display-5" id=""><a href="https://harshpaddle.github.io/All-Aboard/">Crystal Game</a></h3>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body m-4">
-                      <h6>Summary</h6>
-                      <p>
-                        Bag Them Crystals is a simple game where at the start of each round you're given an 'empty bag' and an exact weight(number/value) that is to be achieved adding one of three crystals given, each assigned random weight at the beginning of every game, to your bag. 
-                      </p>
-                      <p>
-                        The game is won when the weight of your bag matches perfectly with the given weight and lost if your bag's weight goes over the exact weight to be matched. 
-                      </p>
-                      <p>
-                        You're supposed to figure out the weight(value) of each crystal by addding them to your bag and noting the difference it make in total weight. You then keep adding different crystals to your bag moving closer to the exact weight to match, making sure not to jump over it.
-                      </p>
-                      <p>
-                        <h6 class="bold">Motive</h6>
-                        This project was sort of a prework assignment, required to be done before attending the Rutgers Coding Bootcamp. I believe it was assigned to sharpen student's problem-solving/self-dependency skills as it made you use lot of outside resources and documentations.
-                      </p>
-                      
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-secondary" target="_blank" href="https://github.com/harshpaddle/All-Aboard">View Code <i class="fab fa-github"></i></a>
-                      <a class="btn btn-lg btn-success" target="_blank"  href="https://harshpaddle.github.io/All-Aboard/">Visit Site</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            <!-- </a> -->
-          <!-- </label> -->
-        </div>
-<!-- sixth project -->
-        <div class="col-md-5 col-xs-12 work-prev work-img">
-              <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable5">
-                <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="https://github.com/harshpaddle/All-Aboard/blob/master/assets/images/Screen%20Shot%202019-04-12%20at%209.12.39%20AM.png?raw=true" alt="all abord" >
-                <h4 class="">All Aboard</h4>
-              </button>
-
-              <div class="modal fade shadow-lg" id="exampleModalScrollable5" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-                aria-hidden="true">
-                <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h3 class="display-5" id=""><a href="https://harshpaddle.github.io/All-Aboard/">All Aboard</a></h3>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body m-4">
-                      <h6>Summary</h6>
-                      <p>
-                        All aboard is an application designed for a train station  of sort that records all the daily trains schedules/frequency stops at the current location with destination and dispalys it .
-                      </p>
-                      <p>
-                        <h6 class="bold">Motive</h6>
-                        This is one of the projects I had to do during my time at Rutgers coding Bootcamp, as to prove the knowledge of Google's firebase by creating an application powered by it with numerous benefits like database, analytics and crash reporting.
-                      </p>
-
-                      <h6>Powered by:</h6>
-                      <div class="m-2">
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="65" aria-valuemin="0"
-                            aria-valuemax="100">Google Firebase</div>
-                        </div>
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="60" aria-valuemin="0"
-                            aria-valuemax="100">Express</div>
-                        </div>
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-succed" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0"
-                            aria-valuemax="100">Axios</div>
-                        </div>
-                        <div class="progress m-2">
-                          <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0"
-                            aria-valuemax="100">Swal(sweet alerts)</div>
-                        </div>
+                <div class="modal fade shadow-lg" id="exampleModalScrollable4" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="display-5" id=""><a href="https://harshpaddle.github.io/All-Aboard/">Crystal Game</a></h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
                       </div>
-                      
-                    </div>
-                    <div class="modal-footer">
-                      <a class="btn btn-secondary" target="_blank" href="https://github.com/harshpaddle/All-Aboard">View Code <i class="fab fa-github"></i></a>
-                      <a class="btn btn-lg btn-success" target="_blank"  href="https://harshpaddle.github.io/All-Aboard/">Visit Site</a>
+                      <div class="modal-body m-4">
+                        <h6>Summary</h6>
+                        <p>
+                          Bag Them Crystals is a simple game where at the start of each round you're given an 'empty bag' and an exact weight(number/value) that is to be achieved adding one of three crystals given, each assigned random weight at the beginning of every game, to your bag. 
+                        </p>
+                        <p>
+                          The game is won when the weight of your bag matches perfectly with the given weight and lost if your bag's weight goes over the exact weight to be matched. 
+                        </p>
+                        <p>
+                          You're supposed to figure out the weight(value) of each crystal by addding them to your bag and noting the difference it make in total weight. You then keep adding different crystals to your bag moving closer to the exact weight to match, making sure not to jump over it.
+                        </p>
+                        <p>
+                          <h6 class="bold">Motive</h6>
+                          This project was sort of a prework assignment, required to be done before attending the Rutgers Coding Bootcamp. I believe it was assigned to sharpen student's problem-solving/self-dependency skills as it made you use lot of outside resources and documentations.
+                        </p>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <a class="btn btn-secondary" target="_blank" href="https://github.com/harshpaddle/All-Aboard">View Code <i class="fab fa-github"></i></a>
+                        <a class="btn btn-lg btn-success" target="_blank"  href="https://harshpaddle.github.io/All-Aboard/">Visit Site</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            <!-- </a> -->
-          <!-- </label> -->
-        </div>
+              <!-- </a> -->
+            <!-- </label> -->
+          </div>
+  <!-- sixth project -->
+          <div class="col-md-5 col-xs-12 work-prev work-img">
+                <button class="border-0 p-4 mr-2" data-toggle="modal" data-placement="right" title="click for more Info." data-target="#exampleModalScrollable5">
+                  <img class=" transition-project" data-toggle="tooltip" data-placement="right" title="click for more Info." src="https://github.com/harshpaddle/All-Aboard/blob/master/assets/images/Screen%20Shot%202019-04-12%20at%209.12.39%20AM.png?raw=true" alt="all abord" >
+                  <h4 class="">All Aboard</h4>
+                </button>
 
+                <div class="modal fade shadow-lg" id="exampleModalScrollable5" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-small modal-dialog-scrollable" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="display-5" id=""><a href="https://harshpaddle.github.io/All-Aboard/">All Aboard</a></h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body m-4">
+                        <h6>Summary</h6>
+                        <p>
+                          All aboard is an application designed for a train station  of sort that records all the daily trains schedules/frequency stops at the current location with destination and dispalys it .
+                        </p>
+                        <p>
+                          <h6 class="bold">Motive</h6>
+                          This is one of the projects I had to do during my time at Rutgers coding Bootcamp, as to prove the knowledge of Google's firebase by creating an application powered by it with numerous benefits like database, analytics and crash reporting.
+                        </p>
+
+                        <h6>Powered by:</h6>
+                        <div class="m-2">
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="65" aria-valuemin="0"
+                              aria-valuemax="100">Google Firebase</div>
+                          </div>
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 40%" aria-valuenow="60" aria-valuemin="0"
+                              aria-valuemax="100">Express</div>
+                          </div>
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-succed" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0"
+                              aria-valuemax="100">Axios</div>
+                          </div>
+                          <div class="progress m-2">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0"
+                              aria-valuemax="100">Swal(sweet alerts)</div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class="modal-footer">
+                        <a class="btn btn-secondary" target="_blank" href="https://github.com/harshpaddle/All-Aboard">View Code <i class="fab fa-github"></i></a>
+                        <a class="btn btn-lg btn-success" target="_blank"  href="https://harshpaddle.github.io/All-Aboard/">Visit Site</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- </a> -->
+            <!-- </label> -->
+          </div>
+          
+        </div>
+        
       </div>
-      
-    </div>
+    </section>
+    <hr>
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5 text-primary justify-content-start">Experience
+          <div class="align-self-start">
+            <hr width="30%" >
+          </div>
+        </h2>
+        <p class="text-info"></p>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -682,14 +694,32 @@
       </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
+    <section class="resume-section p-3 p-lg-5 mt-4" id="contact">
 
-      <h3>Get in touch</h3>
-      <form method="POST" action="https://formspree.io/harshrpatel93@gmail.com">
+      <div class="row container ">
+        <h3 class="col-12 text-primary">Contact</h3>
+      </div>
+      <hr class="ml-1 mb-4">
+      <!-- <form method="POST" action="https://formspree.io/harshrpatel93@gmail.com">
         <input type="email" name="email" placeholder="Your email">
-        <textarea name="message" placeholder="Message"></textarea>
+        <textbox  name="message" placeholder="Message"></textbox>
         <button type="submit">Send Message</button>
-      </form>
+      </form> -->
+
+      <div class="row container">
+
+        <form class="col-12">
+          <div class="form-group" method="POST" action="https://formspree.io/harshrpatel93@gmail.com">
+            <label for="exampleFormControlInput1">Email address*</label>
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"> Your message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="optional"></textarea>
+            <button class="btn btn-lg" style="background-color:#d48a6e; color: white; opactity: 20%:" type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
     </section>
 
   </div>
